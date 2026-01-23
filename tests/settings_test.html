@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Settings Test</title>
+</head>
+<body>
+    <h1>Ignis Settings Test</h1>
+
+    <div id="profileAvatar" style="width: 50px; height: 50px; background: red; cursor: pointer; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+        I
+    </div>
+
+    <div class="modal" id="settingsModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000;">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border-radius: 8px; min-width: 300px;">
+            <h3>Ignis Settings</h3>
+            <div style="margin: 15px 0;">
+                <label>Temperature: <span id="temperatureValue">0.7</span></label><br>
+                <input type="range" id="temperatureSlider" min="0" max="2" step="0.1" value="0.7" style="width: 100%;">
+            </div>
+            <div style="margin: 15px 0;">
+                <label>Max Tokens:</label><br>
+                <input type="number" id="maxTokensInput" value="512" min="1" max="4096" style="width: 100%;">
+            </div>
+            <div style="margin: 15px 0;">
+                <label>Memory Mode:</label><br>
+                <select id="memoryModeSelect" style="width: 100%;">
+                    <option value="dual">Dual</option>
+                    <option value="short">Short-term</option>
+                    <option value="long">Long-term</option>
+                    <option value="none">No Memory</option>
+                </select>
+            </div>
+            <div style="margin: 15px 0;">
+                <label>Response Style:</label><br>
+                <select id="responseStyleSelect" style="width: 100%;">
+                    <option value="balanced">Balanced</option>
+                    <option value="fast">Fast</option>
+                    <option value="creative">Creative</option>
+                </select>
+            </div>
+            <div style="margin-top: 20px; text-align: right;">
+                <button id="saveSettingsBtn">Save</button>
+                <button id="closeSettingsBtn" style="margin-left: 10px;">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Test the settings functionality
+        const apiBase = 'http://localhost:8000';
+
+        // Profile picture click
+        const avatarElement = document.getElementById('profileAvatar');
+        if (avatarElement) {
+            avatarElement.addEventListener('click', () => {
+                openSettings();
+            });
+            console.log('✅ Profile picture click handler attached');
+        }
+
+        function openSettings() {
+            loadSettings();
+            const modal = document.getElementById('settingsModal');
+            if (modal) {
+                modal.style.display = 'block';
+                console.log('✅ Settings modal opened');
+            }
+        }
+
+        function closeSettings() {
+            const modal = document.getElementById('settingsModal');
+            if (modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Event listeners
+        document.getElementById('closeSettingsBtn').addEventListener('click', closeSettings);
+        document.getElementById('saveSettingsBtn').addEventListener('click', saveSettings);
+        document.getElementById('temperatureSlider').addEventListener('input', updateTemperatureDisplay);
+
+        function updateTemperatureDisplay() {
+            const value = document.getElementById('temperatureSlider').value;
+            document.getElementById('temperatureValue').textContent = value;
+        }
+
+        async function loadSettings() {
+            try {
+                // First try localStorage
+                const localSettings = loadLocalSettings();
+                if (localSettings) {
+                    console.log('✅ Loading settings from localStorage');
+                    applySettingsToForm(localSettings);
+                    return;
+                }
+
+                // Fallback to server
+                const response = await fetch(`${apiBase}/settings`);
+                if (response.ok) {
+                    const settings = await response.json();
+                    console.log('✅ Loading settings from server');
+                    applySettingsToForm(settings);
+                    saveLocalSettings(settings); // Cache locally
+                }
+            } catch (error) {
+                console.warn('⚠️ Could not load settings:', error);
+            }
+        }
+
+        function applySettingsToForm(settings) {
+            document.getElementById('temperatureSlider').value = settings.generation?.temperature || 0.7;
+            document.getElementById('maxTokensInput').value = settings.generation?.max_tokens || 512;
+            document.getElementById('memoryModeSelect').value = settings.memory?.mode || 'dual';
+            document.getElementById('responseStyleSelect').value = settings.generation?.style || 'balanced';
+            updateTemperatureDisplay();
+        }
+
+        function loadLocalSettings() {
+            try {
+                const settings = localStorage.getItem('ignis_settings');
+                return settings ? JSON.parse(settings) : null;
+            } catch (error) {
+                return null;
+            }
+        }
+
+        function saveLocalSettings(settings) {
+            try {
+                localStorage.setItem('ignis_settings', JSON.stringify(settings));
+            } catch (error) {
+                console.warn('Could not save local settings:', error);
+            }
+        }
+
+        async function saveSettings() {
+            const settings = {
+                generation: {
+                    temperature: parseFloat(document.getElementById('temperatureSlider').value),
+                    max_tokens: parseInt(document.getElementById('maxTokensInput').value),
+                    style: document.getElementById('responseStyleSelect').value
+                },
+                memory: {
+                    mode: document.getElementById('memoryModeSelect').value
+                }
+            };
+
+            // Save to localStorage immediately
+            saveLocalSettings(settings);
+            console.log('✅ Settings saved to localStorage');
+
+            try {
+                const response = await fetch(`${apiBase}/settings`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(settings)
+                });
+                if (response.ok) {
+                    console.log('✅ Settings saved to server');
+                    alert('Settings saved successfully!');
+                } else {
+                    console.warn('⚠️ Failed to save to server, but saved locally');
+                    alert('Settings saved locally (server unavailable)');
+                }
+            } catch (error) {
+                console.error('❌ Error saving settings:', error);
+                alert('Settings saved locally (server error)');
+            }
+        }
+
+        // Test on load
+        console.log('🔍 Testing settings functionality...');
+        loadSettings();
+    </script>
+</body>
+</html>

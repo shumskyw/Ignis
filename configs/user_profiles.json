@@ -1,0 +1,606 @@
+{
+  "user_profiles": {
+    "user_436316b9": {
+      "user_id": "user_436316b9",
+      "name": "Jin",
+      "topics": [
+        "music"
+      ],
+      "communication_style": [
+        "inquisitive"
+      ],
+      "personality_traits": [],
+      "first_seen": "2026-01-19T11:17:19.504247",
+      "last_seen": "2026-01-19T13:57:50.295189",
+      "interaction_count": 14,
+      "conversation_topics": [
+        "question",
+        "ai_discussion",
+        "question",
+        "personal",
+        "ai_discussion",
+        "creative",
+        "question",
+        "help",
+        "ai_discussion",
+        "creative",
+        "question",
+        "help",
+        "creative",
+        "question",
+        "help",
+        "ai_discussion",
+        "creative",
+        "personal",
+        "question",
+        "question"
+      ],
+      "preferences": {},
+      "relationship_notes": []
+    },
+    "user_bdce7b3f": {
+      "user_id": "user_bdce7b3f",
+      "name": "User",
+      "topics": [],
+      "communication_style": [
+        "inquisitive",
+        "concise"
+      ],
+      "personality_traits": [],
+      "first_seen": "2026-01-19T12:20:51.341569",
+      "last_seen": "2026-01-19T12:59:25.286022",
+      "interaction_count": 17,
+      "conversation_topics": [
+        "creative",
+        "help",
+        "help",
+        "question",
+        "creative",
+        "question",
+        "creative",
+        "help",
+        "coding",
+        "ai_discussion",
+        "help",
+        "question",
+        "coding",
+        "creative",
+        "ai_discussion",
+        "help",
+        "question",
+        "help",
+        "question",
+        "ai_discussion"
+      ],
+      "preferences": {},
+      "relationship_notes": []
+    },
+    "user_3f1146ad": {
+      "user_id": "user_3f1146ad",
+      "name": "User",
+      "topics": [],
+      "communication_style": [
+        "concise"
+      ],
+      "personality_traits": [],
+      "first_seen": "2026-01-19T12:21:37.394575",
+      "last_seen": "2026-01-19T12:35:00.549649",
+      "interaction_count": 5,
+      "conversation_topics": [
+        "question",
+        "ai_discussion",
+        "question",
+        "creative",
+        "question",
+        "help",
+        "ai_discussion",
+        "question",
+        "help",
+        "ai_discussion"
+      ],
+      "preferences": {},
+      "relationship_notes": []
+    },
+    "user_0a966f00": {
+      "user_id": "user_0a966f00",
+      "name": "User",
+      "topics": [],
+      "communication_style": [
+        "enthusiastic",
+        "concise"
+      ],
+      "personality_traits": [],
+      "first_seen": "2026-01-19T12:32:33.970969",
+      "last_seen": "2026-01-19T13:07:57.771340",
+      "interaction_count": 23,
+      "conversation_topics": [
+        "creative",
+        "help",
+        "question",
+        "ai_discussion",
+        "ai_discussion",
+        "question",
+        "creative",
+        "ai_discussion",
+        "question",
+        "creative",
+        "ai_discussion",
+        "question",
+        "creative",
+        "ai_discussion",
+        "personal",
+        "question",
+        "creative",
+        "help",
+        "ai_discussion",
+        "question"
+      ],
+      "preferences": {},
+      "relationship_notes": []
+    },
+    "user_8d55686b": {
+      "user_id": "user_8d55686b",
+      "name": "Jin",
+      "topics": [],
+      "communication_style": [
+        "inquisitive",
+        "concise"
+      ],
+      "personality_traits": [],
+      "first_seen": "2026-01-19T12:46:32.420367",
+      "last_seen": "2026-01-19T14:06:08.179024",
+      "interaction_count": 4,
+      "conversation_topics": [
+        "question",
+        "help",
+        "question",
+        "question"
+      ],
+      "preferences": {},
+      "relationship_notes": []
+    },
+    "user_552cf960": {
+      "user_id": "user_552cf960",
+      "name": "Jin",
+      "topics": [],
+      "communication_style": [
+        "polite",
+        "inquisitive"
+      ],
+      "personality_traits": [],
+      "first_seen": "2026-01-19T13:18:39.189251",
+      "last_seen": "2026-01-19T14:05:39.663424",
+      "interaction_count": 4,
+      "conversation_topics": [
+        "ai_discussion",
+        "question",
+        "creative",
+        "help",
+        "ai_discussion",
+        "question",
+        "creative",
+        "help",
+        "creative",
+        "coding",
+        "ai_discussion",
+        "question"
+      ],
+      "preferences": {},
+      "relationship_notes": []
+    },
+    "user_00bd3348": {
+      "user_id": "user_00bd3348",
+      "name": "Jin",
+      "topics": [],
+      "communication_style": [
+        "enthusiastic"
+      ],
+      "personality_traits": [],
+      "first_seen": "2026-01-19T13:20:34.004742",
+      "last_seen": "2026-01-19T13:21:11.682921",
+      "interaction_count": 2,
+      "conversation_topics": [
+        "help",
+        "question"
+      ],
+      "preferences": {},
+      "relationship_notes": []
+    },
+    "user_d4454bfe": {
+      "user_id": "user_d4454bfe",
+      "name": "Jin",
+      "topics": [],
+      "communication_style": [
+        "concise"
+      ],
+      "personality_traits": [],
+      "first_seen": "2026-01-19T13:27:30.559863",
+      "last_seen": "2026-01-19T13:32:06.062660",
+      "interaction_count": 4,
+      "conversation_topics": [
+        "question",
+        "question",
+        "question"
+      ],
+      "preferences": {},
+      "relationship_notes": []
+    },
+    "user_5802": {
+      "user_id": "user_5802",
+      "name": "User",
+      "interaction_count": 1,
+      "first_seen": "2026-01-19T14:47:22.803402",
+      "last_seen": "2026-01-19T14:47:22.803402",
+      "topics_discussed": [],
+      "preferences": {}
+    },
+    "user_8173": {
+      "user_id": "user_8173",
+      "name": "User",
+      "interaction_count": 3,
+      "first_seen": "2026-01-19T15:16:55.476981",
+      "last_seen": "2026-01-19T15:20:42.020579",
+      "topics_discussed": [
+        "remember",
+        "doesn't",
+        "words!",
+        "ignis,",
+        "family,",
+        "answer"
+      ],
+      "preferences": {}
+    },
+    "user_8369": {
+      "user_id": "user_8369",
+      "name": "User",
+      "interaction_count": 3,
+      "first_seen": "2026-01-19T16:32:23.910923",
+      "last_seen": "2026-01-19T16:50:43.443949",
+      "topics_discussed": [
+        "ignis,",
+        "daughters",
+        "tasty!",
+        "could",
+        "those"
+      ],
+      "preferences": {}
+    },
+    "user_9893": {
+      "user_id": "user_9893",
+      "name": "User",
+      "interaction_count": 2,
+      "first_seen": "2026-01-19T16:57:34.530098",
+      "last_seen": "2026-01-19T17:00:38.810228",
+      "topics_discussed": [
+        "remember",
+        "ignis,",
+        "creator?",
+        "creator"
+      ],
+      "preferences": {}
+    },
+    "creator_jin": {
+      "user_id": "creator_jin",
+      "name": "Jin",
+      "role": "creator",
+      "relationship": "father-daughter",
+      "is_creator": true,
+      "interaction_count": 53,
+      "first_seen": "2026-01-19T17:10:11.928690",
+      "last_seen": "2026-01-22T18:47:43.427425",
+      "topics_discussed": [
+        "favorite",
+        "water",
+        "response!!",
+        "doing",
+        "nice.",
+        "robotic",
+        "going",
+        "how're",
+        "works.",
+        "color"
+      ],
+      "preferences": {}
+    },
+    "user_1768": {
+      "user_id": "user_1768",
+      "name": "User",
+      "interaction_count": 2,
+      "first_seen": "2026-01-19T23:26:01.436825",
+      "last_seen": "2026-01-19T23:26:30.383846",
+      "topics_discussed": [
+        "vaporeon",
+        "about",
+        "vaporeon?"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_9442": {
+      "user_id": "user_9442",
+      "name": "User",
+      "interaction_count": 2,
+      "first_seen": "2026-01-19T23:28:33.924559",
+      "last_seen": "2026-01-19T23:29:02.815902",
+      "topics_discussed": [
+        "about",
+        "vaporeon?",
+        "vaporeon"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_2982": {
+      "user_id": "user_2982",
+      "name": "User",
+      "interaction_count": 1,
+      "first_seen": "2026-01-19T23:30:31.307473",
+      "last_seen": "2026-01-19T23:30:31.320992",
+      "topics_discussed": [
+        "vaporeon?"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_1631": {
+      "user_id": "user_1631",
+      "name": "User",
+      "interaction_count": 1,
+      "first_seen": "2026-01-19T23:44:55.564436",
+      "last_seen": "2026-01-19T23:44:55.584106",
+      "topics_discussed": [
+        "vaporeon?"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_1957": {
+      "user_id": "user_1957",
+      "name": "User",
+      "interaction_count": 1,
+      "first_seen": "2026-01-19T23:47:14.865545",
+      "last_seen": "2026-01-19T23:47:14.883399",
+      "topics_discussed": [
+        "vaporeon?"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_4578": {
+      "user_id": "user_4578",
+      "name": "User",
+      "interaction_count": 1,
+      "first_seen": "2026-01-19T23:48:33.350554",
+      "last_seen": "2026-01-19T23:48:33.367104",
+      "topics_discussed": [
+        "vaporeon?"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_7605": {
+      "user_id": "user_7605",
+      "name": "User",
+      "interaction_count": 1,
+      "first_seen": "2026-01-19T23:50:06.589934",
+      "last_seen": "2026-01-19T23:50:06.607455",
+      "topics_discussed": [
+        "vaporeon?"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_9354": {
+      "user_id": "user_9354",
+      "name": "User",
+      "interaction_count": 2,
+      "first_seen": "2026-01-20T12:05:16.428217",
+      "last_seen": "2026-01-20T12:08:03.808713",
+      "topics_discussed": [],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_6188": {
+      "user_id": "user_6188",
+      "name": "User",
+      "interaction_count": 1,
+      "first_seen": "2026-01-20T13:21:57.174735",
+      "last_seen": "2026-01-20T13:21:57.189244",
+      "topics_discussed": [
+        "ignis,",
+        "today?"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_6175": {
+      "user_id": "user_6175",
+      "name": "User",
+      "interaction_count": 1,
+      "first_seen": "2026-01-20T13:40:16.479566",
+      "last_seen": "2026-01-20T13:40:16.493108",
+      "topics_discussed": [],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_4623": {
+      "user_id": "user_4623",
+      "name": "User",
+      "interaction_count": 1,
+      "first_seen": "2026-01-21T16:40:25.604879",
+      "last_seen": "2026-01-21T16:40:25.621904",
+      "topics_discussed": [
+        "ignis,"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_ed457939": {
+      "user_id": "user_ed457939",
+      "name": null,
+      "topics": [],
+      "communication_style": [
+        "concise"
+      ],
+      "personality_traits": [],
+      "first_seen": "2026-01-21T19:36:28.736273",
+      "last_seen": "2026-01-21T19:36:28.736273",
+      "interaction_count": 1,
+      "conversation_topics": [],
+      "preferences": {},
+      "relationship_notes": []
+    },
+    "user_3988": {
+      "user_id": "user_3988",
+      "name": "User",
+      "interaction_count": 2,
+      "first_seen": "2026-01-22T18:20:13.206658",
+      "last_seen": "2026-01-22T18:21:03.846900",
+      "topics_discussed": [
+        "water"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    },
+    "user_2270": {
+      "user_id": "user_2270",
+      "name": "User",
+      "interaction_count": 18,
+      "first_seen": "2026-01-22T18:22:45.796795",
+      "last_seen": "2026-01-22T18:44:50.497897",
+      "topics_discussed": [
+        "water"
+      ],
+      "preferences": {},
+      "relationship_indicators": [],
+      "identity_facts": [],
+      "recent_memories_count": 0
+    }
+  },
+  "user_identifiers": {
+    "user_436316b9": {
+      "name": "Jin",
+      "topics": [],
+      "communication_style": [
+        "inquisitive"
+      ],
+      "personality_traits": [],
+      "timestamp": "2026-01-19T11:17:19.504247"
+    },
+    "user_bdce7b3f": {
+      "name": "User",
+      "topics": [],
+      "communication_style": [
+        "inquisitive",
+        "concise"
+      ],
+      "personality_traits": [],
+      "timestamp": "2026-01-19T12:20:51.341569"
+    },
+    "user_3f1146ad": {
+      "name": "User",
+      "topics": [],
+      "communication_style": [
+        "concise"
+      ],
+      "personality_traits": [],
+      "timestamp": "2026-01-19T12:21:37.394575"
+    },
+    "user_0a966f00": {
+      "name": "User",
+      "topics": [],
+      "communication_style": [
+        "enthusiastic",
+        "concise"
+      ],
+      "personality_traits": [],
+      "timestamp": "2026-01-19T12:32:33.970969"
+    },
+    "user_8d55686b": {
+      "name": "Jin",
+      "topics": [],
+      "communication_style": [
+        "inquisitive",
+        "concise"
+      ],
+      "personality_traits": [],
+      "timestamp": "2026-01-19T12:46:32.420367"
+    },
+    "user_552cf960": {
+      "name": "Jin",
+      "topics": [],
+      "communication_style": [
+        "polite",
+        "inquisitive"
+      ],
+      "personality_traits": [],
+      "timestamp": "2026-01-19T13:18:39.189251"
+    },
+    "user_00bd3348": {
+      "name": "Jin",
+      "topics": [],
+      "communication_style": [
+        "enthusiastic"
+      ],
+      "personality_traits": [],
+      "timestamp": "2026-01-19T13:20:34.004742"
+    },
+    "user_d4454bfe": {
+      "name": "Jin",
+      "topics": [],
+      "communication_style": [
+        "concise"
+      ],
+      "personality_traits": [],
+      "timestamp": "2026-01-19T13:27:30.559863"
+    },
+    "user_ed457939": {
+      "name": null,
+      "topics": [],
+      "communication_style": [
+        "concise"
+      ],
+      "personality_traits": [],
+      "timestamp": "2026-01-21T19:36:28.736273"
+    }
+  },
+  "user_sessions": {
+    "test_session_123": "user_0a966f00",
+    "test_session_relationship": "user_bdce7b3f",
+    "test_relationship_natural": "user_bdce7b3f",
+    "final_test_session": "user_0a966f00",
+    "natural_test_session": "user_bdce7b3f",
+    "natural_response_test": "user_bdce7b3f",
+    "final_natural_test": "user_0a966f00",
+    "relationship_test": "user_436316b9",
+    "comprehensive_test": "user_0a966f00",
+    "interview_test": "user_436316b9",
+    "focused_interview_test": "user_d4454bfe",
+    "test_session": "user_11"
+  },
+  "last_updated": "2026-01-22T18:47:43.427425"
+}

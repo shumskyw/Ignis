@@ -1,0 +1,64 @@
+{
+  "default": {
+    "temperature": 0.7,
+    "max_tokens": 256,
+    "top_p": 0.9,
+    "top_k": 40,
+    "repetition_penalty": 1.1,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "style": "fast"
+  },
+  "fast": {
+    "temperature": 0.5,
+    "top_p": 0.85,
+    "top_k": 30,
+    "repetition_penalty": 1.15,
+    "max_tokens": 128,
+    "do_sample": true,
+    "description": "Fastest generation with good quality"
+  },
+  "creative": {
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "top_k": 60,
+    "repetition_penalty": 1.05,
+    "max_tokens": 512,
+    "do_sample": true,
+    "description": "More creative and diverse responses"
+  },
+  "analytical": {
+    "temperature": 0.3,
+    "top_p": 0.85,
+    "top_k": 30,
+    "repetition_penalty": 1.2,
+    "max_tokens": 768,
+    "do_sample": true,
+    "description": "Precise and analytical responses"
+  },
+  "coding": {
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "top_k": 40,
+    "repetition_penalty": 1.1,
+    "max_tokens": 1024,
+    "do_sample": true,
+    "description": "Precise code generation"
+  },
+  "roleplay": {
+    "temperature": 0.8,
+    "top_p": 0.92,
+    "top_k": 50,
+    "repetition_penalty": 1.08,
+    "max_tokens": 1024,
+    "do_sample": true,
+    "description": "Engaging roleplay responses"  },
+  "speed": {
+    "temperature": 0.3,
+    "top_p": 0.75,
+    "top_k": 25,
+    "repetition_penalty": 1.2,
+    "max_tokens": 96,
+    "do_sample": true,
+    "description": "Ultra-fast responses with minimal quality trade-offs"  }
+}

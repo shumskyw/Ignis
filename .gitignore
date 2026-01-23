@@ -1,0 +1,61 @@
+# Model files (large)
+models/
+*.safetensors
+*.gguf
+*.bin
+*.pth
+*.dll
+*.exe
+
+# Data and memory
+data/
+memory/
+logs/
+*.sqlite3
+chroma/
+embeddings/
+
+# Environment variables
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+cache/
+
+# Private files
+src/core/private_goals.py
+src/core/private_config.py

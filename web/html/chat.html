@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignis AI - Chat</title>
+    <link rel="stylesheet" href="../css/chat.css">
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="contact-info">
+                <div class="contact-avatar" id="profileAvatar">
+                    <span class="avatar-text">I</span>
+                </div>
+                <div class="contact-details">
+                    <div class="contact-name">Ignis AI</div>
+                    <div class="contact-status">Online</div>
+                </div>
+            </div>
+            <div class="header-actions">
+                <input type="text" id="userNameInput" placeholder="Your name" class="name-input" maxlength="20" value="Jin">
+            </div>
+        </div>
+
+        <!-- Messages Container -->
+        <div class="messages-container" id="messagesContainer">
+            <div class="welcome-message">
+                <div class="message-group ai-message-group">
+                    <div class="message-sender">Ignis</div>
+                    <div class="message-bubble ai-message">
+                        <div class="message-content">
+                            Hello! I'm Ignis AI. I'm here to chat and learn from our conversations. How can I help you today?
+                        </div>
+                        <div class="message-time">Just now</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Memory Status Modal -->
+        <div class="modal" id="memoryModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Memory Status</h3>
+                    <span class="modal-close" id="memoryModalClose">&times;</span>
+                </div>
+                <div class="modal-body" id="memoryStatus">
+                    Loading...
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings Modal -->
+        <div class="modal" id="settingsModal">
+            <div class="modal-content settings-modal">
+                <div class="modal-header">
+                    <h3>Ignis Settings</h3>
+                    <span class="modal-close" id="settingsModalClose">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="setting-group">
+                        <label for="temperatureSlider">Temperature: <span id="temperatureValue">0.7</span></label>
+                        <input type="range" id="temperatureSlider" min="0" max="2" step="0.1" value="0.7">
+                    </div>
+                    <div class="setting-group">
+                        <label for="maxTokensInput">Max Tokens:</label>
+                        <input type="number" id="maxTokensInput" value="512" min="1" max="4096">
+                    </div>
+                    <div class="setting-group">
+                        <label for="memoryModeSelect">Memory Mode:</label>
+                        <select id="memoryModeSelect">
+                            <option value="dual">Dual</option>
+                            <option value="short">Short-term</option>
+                            <option value="long">Long-term</option>
+                            <option value="none">No Memory</option>
+                        </select>
+                    </div>
+                    <div class="setting-group">
+                        <label for="responseStyleSelect">Response Style:</label>
+                        <select id="responseStyleSelect">
+                            <option value="balanced">Balanced</option>
+                            <option value="fast">Fast</option>
+                            <option value="creative">Creative</option>
+                        </select>
+                    </div>
+                    <div class="modal-actions">
+                        <button id="saveSettingsBtn" class="save-btn">Save</button>
+                        <button id="closeSettingsBtn" class="close-btn">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input type="text" id="messageInput" placeholder="iMessage" maxlength="1000" autocomplete="off">
+                <button class="send-button" id="sendButton" disabled>
+                    <svg class="send-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="currentColor"/>
+                    </svg>
+                    <span class="loader" id="buttonLoader"></span>
+                </button>
+            </div>
+            <div class="input-footer">
+                <div class="character-count">
+                    <span id="charCount">0</span>/1000
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "vector_db_path": "data/chroma_db",
+  "conversations_path": "data/conversations",
+  "knowledge_base_path": "data/knowledge_base",
+  "max_conversation_length": 1000,
+  "max_atomic_facts": 10000,
+  "confidence_threshold": 0.6,
+  "dual_storage_enabled": true,
+  "short_term_memory_size": 50,
+  "long_term_memory_size": 500,
+  "mode": "dual"
+}
