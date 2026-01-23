@@ -20,7 +20,7 @@ Y              Y           Y                         Y    Y
 
 # 🔥 **Ignis AI** - Advanced Local AI Assistant
 
-**The most sophisticated locally-running AI chat assistant with cutting-edge memory systems, dynamic personality, and enterprise-grade architecture. Built for competitive AI performance with modular design and advanced cognitive features.**
+**A sophisticated locally-running AI chat assistant with cutting-edge memory systems, dynamic personality, and enterprise-grade architecture. Built for competitive AI performance with modular design and advanced cognitive features.**
 
 ---
 
