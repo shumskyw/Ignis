@@ -57,7 +57,7 @@ Ignis AI combines several useful features for local AI:
 
 **Double-click `Ignis.bat`** to launch the web interface. The chat will automatically open in your default browser!
 
-That's it! Your advanced AI assistant is ready to chat with full memory and personality capabilities.
+That's it! Your AI assistant is ready to chat with memory and personality features.
 
 ---
 
@@ -131,13 +131,13 @@ Unlike static chatbots, Ignis **develops personality through interactions**:
 
 ### 🔌 **Extensible Plugin System**
 
-Ignis is designed for **unlimited expansion**:
+Ignis includes an extensible plugin system:
 
 #### **Core Plugins**
-- **Coding Assistant**: Python/JavaScript help, code review, debugging
-- **Document Reader**: PDF/text processing with intelligent summarization
-- **Calculator**: Advanced mathematical computations
-- **Web Search**: Local knowledge base queries (expandable to web)
+- **Coding Assistant**: Python/JavaScript help and code review
+- **Document Reader**: Text processing and basic summarization
+- **Calculator**: Mathematical computations
+- **Web Search**: Local knowledge base queries
 
 #### **Plugin Architecture**
 - **Async Processing**: Non-blocking plugin execution
@@ -173,7 +173,7 @@ User Input → Command Detection → Memory Retrieval → Context Building → I
 - Model-specific prompt formatting and optimization
 
 #### **4. AI Inference**
-- Hermes-2-Pro-Mistral-7B model processing via llama.cpp
+- Dolphin 2.9 Llama-3 8B model processing via llama.cpp
 - Dynamic parameter adjustment based on context
 - GPU acceleration when available (CUDA/cuBLAS)
 - Response generation with quality filtering
@@ -265,7 +265,7 @@ Ignis/
 │   │   ├── personality_engine.py # Personality processing
 │   │   ├── private_config.py # Private configuration (gitignored)
 │   │   └── private_goals.py # Private goals (gitignored)
-│   ├── memory/            # Advanced memory system
+│   ├── memory/            # Memory system components
 │   │   ├── advanced/      # Cognitive features (spaced repetition, episodic)
 │   │   ├── core/          # Essential memory operations
 │   │   ├── config/        # Memory configuration
@@ -274,17 +274,10 @@ Ignis/
 │   ├── interfaces/        # UI implementations
 │   ├── plugins/           # Plugin system
 │   └── utils/             # Helper utilities
-├── memory/                # Memory data storage
-├── logs/                  # Comprehensive logging
-│   ├── application/       # App logs
-│   ├── conversations/     # Chat logs
-│   ├── memory/           # Memory operation logs
-│   └── personality/      # Personality evolution logs
-├── data/                  # Data storage
-│   ├── conversations/     # Chat logs
-│   ├── knowledge_base/    # Document storage
-│   └── training/          # Learning data
-├── models/                # AI model files
+├── memory/                # Memory data storage (created at runtime)
+├── logs/                  # Application logs (created at runtime)
+├── data/                  # Data storage (created at runtime)
+├── models/                # AI model files (downloaded at setup)
 │   ├── gguf/             # GGUF model files (Hermes-2-Pro-Mistral-7B.Q4_K_M.gguf)
 │   └── mistral/          # Model variants and downloads
 ├── web/                   # Static web files
@@ -295,11 +288,11 @@ Ignis/
 │   └── script/
 │       └── chat.js        # Frontend JavaScript
 ├── scripts/               # Setup and utility scripts
-├── tests/                 # Comprehensive test suite
+├── tests/                 # Test suite
 ├── docs/                  # Documentation
-├── llama.cpp/            # llama.cpp source code
+├── llama.cpp/            # llama.cpp binaries and source
 ├── images/               # UI assets
-│   └── Ignis.png        # Anime character image
+│   └── Ignis.png        # Character image
 └── requirements.txt      # Python dependencies
 ```
 
@@ -309,7 +302,7 @@ Ignis/
 
 ### **Basic Chat**
 1. **Double-click `Ignis.bat`**
-2. **Wait for the server to start** (takes ~20-45 seconds)
+2. **Wait for the server to start** (takes ~30-60 seconds)
 3. **Chat interface opens automatically in your browser**
 4. **Start chatting with Ignis AI!**
 
@@ -426,7 +419,7 @@ Ignis/
 ### **Performance**
 - **Response Time**: 20-60 seconds (CPU), 5-15 seconds (with GPU acceleration)
 - **Memory Usage**: 6-8GB RAM during operation
-- **Model**: Hermes-2-Pro-Mistral-7B.Q4_K_M (7B parameters, 4-bit quantized)
+- **Model**: Dolphin-2.9-Llama3-8B.Q4_K_M (8B parameters, 4-bit quantized)
 - **Startup Time**: ~30-60 seconds initial load
 - **Storage Growth**: ~1MB per 100 conversations
 
@@ -493,12 +486,12 @@ Ignis/
 ## 📊 **Technical Specifications**
 
 ### **AI Model**
-- **Base Model**: Mistral-7B-v0.1 with Hermes-2-Pro fine-tuning
+- **Base Model**: Dolphin 2.9 Llama-3 8B (default)
 - **Format**: GGUF (optimized for llama.cpp)
 - **Quantization**: Q4_K_M (4-bit mixed precision)
 - **Context Window**: 4096 tokens (configurable)
-- **Parameters**: 7 billion
-- **File**: `models/gguf/Hermes-2-Pro-Mistral-7B.Q4_K_M.gguf`
+- **Parameters**: 8 billion
+- **File**: `models/gguf/dolphin-2.9-llama3-8b.Q4_K_M.gguf`
 
 ### **Memory System**
 - **Storage**: JSON-based with atomic facts extraction
@@ -517,7 +510,8 @@ Ignis/
 
 ## 🙏 **Credits & Acknowledgments**
 
-- **Nous Research** for the Hermes-2-Pro-Mistral-7B model
+- **Cognitive Computations** for the Dolphin 2.9 model
+- **Meta** for the Llama-3 base model
 - **llama.cpp** for efficient local inference engine
 - **FastAPI** for the web framework
 - **Hugging Face** for model hosting and tools
