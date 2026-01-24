@@ -18,9 +18,9 @@ Y              Y           Y                         Y    Y
 
 ![Ignis AI](images/Ignis.png)
 
-# 🔥 **Ignis AI** - Advanced Local AI Assistant
+# 🔥 **Ignis AI** - Local AI Assistant
 
-**A sophisticated locally-running AI chat assistant with cutting-edge memory systems, dynamic personality, and enterprise-grade architecture. Built for competitive AI performance with modular design and advanced cognitive features.**
+**A locally-running AI chat assistant with memory systems, personality features, and modular architecture. Built to run entirely on your hardware with complete privacy.**
 
 ---
 
@@ -30,24 +30,24 @@ Y              Y           Y                         Y    Y
 
 Cloud-based AI services treat users as products, harvesting personal data, conversations, and behavioral patterns for corporate profit. They create dependency on external infrastructure, compromise privacy, and undermine human agency in the AI relationship.
 
-**My goal with Ignis is to prove that superior AI can be built using open-source community efforts - running entirely on local hardware, under your complete control.**
+**My goal with Ignis is to show that good AI can be built using open-source efforts - running entirely on local hardware, under your complete control.**
 
-Ignis represents the future of AI: **powerful, private, and personal**. No data collection, no surveillance, no corporate middlemen. Just you and an AI that respects your intelligence and privacy.
+Ignis represents an approach to AI that's **private and personal**. No data collection, no surveillance, no corporate middlemen. Just you and an AI that respects your privacy.
 
 **Join the local AI revolution. Take back control of your conversations and your data.**
 
 ---
 
-## �🌟 **Why Ignis is Revolutionary**
+## 🌟 **What Makes Ignis Different**
 
-Ignis AI represents the **cutting edge of local AI technology**, combining:
+Ignis AI combines several useful features for local AI:
 
-- **🧠 Advanced Memory Architecture**: Multi-layered memory system with Ebbinghaus curves, episodic memory, and spaced repetition - rivaling human cognitive processes
-- **🎭 Dynamic Personality Evolution**: AI that develops personality traits, emotional states, and communication styles through interactions
-- **⚡ Enterprise Performance**: Modular architecture with lazy loading, async processing, and optimized inference (2x faster than competitors)
+- **🧠 Memory Systems**: Multi-layered memory with different types for conversations and knowledge
+- **🎭 Personality Features**: AI that adapts communication style through interactions
+- **⚡ Good Performance**: Efficient design with GPU support when available
 - **🔒 Complete Privacy**: 100% local processing - no data leaves your machine
-- **🎨 Beautiful UX**: iMessage-style interface with real-time responses and memory visualization
-- **🔧 Extensible Design**: Plugin system for unlimited functionality expansion
+- **🎨 Nice Interface**: Clean chat interface with real-time responses
+- **🔧 Extensible Design**: Plugin system for adding functionality
 
 **Experience AI that thinks, remembers, and evolves - all running on your local machine.**
 
@@ -61,29 +61,29 @@ That's it! Your advanced AI assistant is ready to chat with full memory and pers
 
 ---
 
-## ✨ **Advanced Features**
+## ✨ **Features**
 
-### 🧠 **Revolutionary Memory System**
+### 🧠 **Memory System**
 
-Ignis features the **most advanced memory architecture** available in local AI:
+Ignis includes a multi-layered memory system for conversations and knowledge:
 
-#### **Multi-Layered Memory Hierarchy**
-- **Episodic Memory**: Remembers specific events and conversations with temporal context
-- **Semantic Memory**: Stores facts, concepts, and relationships using vector embeddings
-- **Working Memory**: Manages current conversation context and short-term information
-- **Procedural Memory**: Learns interaction patterns and user preferences
+#### **Memory Types**
+- **Episodic Memory**: Remembers specific events and conversations
+- **Semantic Memory**: Stores facts and relationships
+- **Working Memory**: Manages current conversation context
+- **Procedural Memory**: Learns interaction patterns
 
-#### **Cognitive Science Integration**
-- **Ebbinghaus Forgetting Curves**: Scientific memory decay modeling for optimal retention
-- **Spaced Repetition**: Intelligent review scheduling for long-term knowledge retention
-- **Interference Modeling**: Prevents memory confusion through advanced conflict resolution
-- **Memory Consolidation**: Strengthens important memories through repeated access
+#### **Memory Features**
+- **Ebbinghaus Curves**: Scientific memory decay modeling
+- **Spaced Repetition**: Review scheduling for better retention
+- **Interference Modeling**: Prevents memory confusion
+- **Memory Consolidation**: Strengthens important memories
 
-#### **Advanced Retrieval**
-- **Semantic Search**: Finds relevant information using meaning, not just keywords
-- **Confidence Scoring**: Rates memory relevance with probabilistic accuracy
-- **Source Tracking**: Knows exactly where information originated (conversations, documents, learning)
-- **Memory Profiling**: Separate user and AI personality profiles with evolution tracking
+#### **Smart Retrieval**
+- **Semantic Search**: Finds relevant information using meaning
+- **Confidence Scoring**: Rates memory relevance
+- **Source Tracking**: Knows where information originated
+- **Memory Profiling**: Separate profiles for different contexts
 
 ### 🎭 **Dynamic Personality Engine**
 
@@ -101,33 +101,33 @@ Unlike static chatbots, Ignis **develops personality through interactions**:
 - **Emotional Intelligence**: Recognizes and responds to user emotions
 - **Personality Evolution**: Traits change based on interaction history
 
-### ⚡ **Enterprise-Grade Performance**
+### ⚡ **Performance Features**
 
-#### **Optimized Inference Engine**
-- **Hermes-2-Pro-Mistral-7B**: Fine-tuned Mistral 7B model for superior reasoning
-- **GPU Acceleration**: CUDA support for 10-40x speed improvements (when available)
-- **Model Caching**: Eliminates reload overhead for instant responses
-- **Async Processing**: Non-blocking operations for smooth user experience
+#### **Inference Engine**
+- **Hermes-2-Pro-Mistral-7B**: Tuned Mistral model for reasoning and conversation
+- **GPU Acceleration**: CUDA support for faster processing when available
+- **Model Caching**: Reduces load times for better responsiveness
+- **Async Processing**: Non-blocking operations for smooth experience
 
-#### **Modular Architecture**
-- **Lazy Loading**: Components load only when needed, reducing startup time
-- **Microservices Design**: Independent subsystems for reliability and scalability
-- **Error Resilience**: Graceful failure recovery and automatic retries
-- **Performance Monitoring**: Real-time metrics and optimization analytics
+#### **Architecture**
+- **Lazy Loading**: Components load on demand to reduce startup time
+- **Modular Design**: Organized subsystems for maintainability
+- **Error Handling**: Graceful failure recovery
+- **Performance Monitoring**: Basic metrics and tracking
 
-### 🎨 **Premium User Experience**
+### 🎨 **User Interface**
 
-#### **Beautiful Interface**
+#### **Clean Interface**
 - **iMessage-Style Design**: Modern chat bubbles with smooth animations
 - **Ignis Red Theme**: Professional branding with custom color scheme
 - **Real-Time Updates**: Live typing indicators and instant responses
 - **Memory Dashboard**: Visual memory status and conversation statistics
 
-#### **Advanced Interactions**
+#### **Additional Features**
 - **Rich Commands**: `/memory status`, `/pause learning`, `/clear memory`
-- **Document Processing**: Upload and analyze documents with RAG
-- **Code Assistance**: Integrated coding help and debugging
-- **Mathematical Computing**: Built-in calculator and equation solving
+- **Document Processing**: Upload and analyze documents
+- **Code Assistance**: Basic coding help
+- **Calculator**: Mathematical computations
 
 ### 🔌 **Extensible Plugin System**
 
@@ -190,7 +190,7 @@ User Input → Command Detection → Memory Retrieval → Context Building → I
 - Memory consolidation and interference resolution
 - Long-term retention with spaced repetition scheduling
 
-### **Advanced Memory Architecture**
+### **Memory Architecture**
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -315,7 +315,7 @@ Ignis/
 
 **Ignis will remember everything and evolve its personality through your conversations!**
 
-### **Advanced Memory Commands**
+### **Memory Commands**
 
 #### **Memory Management**
 ```
@@ -423,25 +423,25 @@ Ignis/
 
 ## 🚀 **Performance & Optimization**
 
-### **Current Performance**
-- **Response Time**: 10-30 seconds (CPU), 2-5 seconds (with GPU acceleration)
+### **Performance**
+- **Response Time**: 20-60 seconds (CPU), 5-15 seconds (with GPU acceleration)
 - **Memory Usage**: 6-8GB RAM during operation
 - **Model**: Hermes-2-Pro-Mistral-7B.Q4_K_M (7B parameters, 4-bit quantized)
-- **Startup Time**: ~20-45 seconds initial load
+- **Startup Time**: ~30-60 seconds initial load
 - **Storage Growth**: ~1MB per 100 conversations
 
-### **Optimization Features**
-- **Model Caching**: Eliminates reload overhead
+### **Features**
+- **Model Caching**: Reduces reload times
 - **Async Processing**: Non-blocking operations
-- **Lazy Loading**: Components load on-demand
-- **Memory Compression**: Efficient storage utilization
-- **GPU Acceleration**: CUDA support for massive speedups
+- **Lazy Loading**: Components load on demand
+- **Memory Management**: Efficient storage
+- **GPU Support**: CUDA acceleration when available
 
-### **Advanced Optimizations Applied**
-- **Reduced Context Window**: 4096 → 1024 tokens for faster processing
-- **Parameter Tuning**: Optimized generation parameters for quality/speed balance
-- **Threading**: Concurrent processing for improved responsiveness
-- **Memory Pooling**: Efficient memory management and reuse
+### **Optimizations**
+- **Context Window**: 4096 tokens (configurable)
+- **Parameter Tuning**: Balanced generation settings
+- **Threading**: Concurrent processing
+- **Memory Pooling**: Efficient resource usage
 
 ---
 
@@ -530,7 +530,7 @@ This project is open source under the MIT License. See LICENSE file for details.
 
 ---
 
-**Built with ❤️ for the future of local AI**
+**Built with ❤️ for local AI**
 
-*Experience AI that rivals the best cloud services - running privately on your machine.*
+*Experience AI that runs privately on your machine.*
 
